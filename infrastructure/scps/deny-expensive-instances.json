@@ -1,0 +1,25 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "DenyExpensiveInstanceFamilies",
+      "Effect": "Deny",
+      "Action": [
+        "ec2:RunInstances"
+      ],
+      "Resource": "*",
+      "Condition": {
+        "StringLike": {
+          "ec2:InstanceType": [
+            "p*",
+            "g*",
+            "x*",
+            "u-*",
+            "m7*",
+            "c7*"
+          ]
+        }
+      }
+    }
+  ]
+}
