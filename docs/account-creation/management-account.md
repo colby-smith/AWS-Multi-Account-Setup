@@ -5,7 +5,6 @@ The Management account is the administrative control plane for my entire AWS Org
 ## Purpose
 - AWS Organisations management.
 - Centralised billing and cost visibility.
-- SCP creation and attachment.
 - Identity Center configuration.
 
 ## Security

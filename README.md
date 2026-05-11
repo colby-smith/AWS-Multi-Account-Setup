@@ -25,7 +25,7 @@ Each AWS account has a clear, single responsibility. This separation ensures saf
 
 | Account      | Purpose                                    |
 |--------------|--------------------------------------------|
-| Management   | Governance, Billing, SCPs, Identity Center |
+| Management   | Governance, Billing, Identity Center |
 | Development  | Ephemeral Testing & Experimentation        |
 | Staging      | Pre‑Production Validation & Testing        |
 | Production   | Live Workloads & Public Projects           |
@@ -57,7 +57,6 @@ Browse the full documentation here:
 
 ### 🔐 Security & Governance
 - [IAM Best Practices](docs/security/iam-best-practices.md)
-- [Service Control Policies (SCPs)](docs/backend-design/SCPs.md)
 
 ### 🗄️ Terraform Backend Design
 - [Terraform State](docs/backend-design/terraform-state.md)
