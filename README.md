@@ -4,7 +4,7 @@ A clean, enterprise‑grade AWS multi‑account setup designed for my own person
 
 ## 📘 Bootstrap Architecture Overview
 
-![AWS‑Account-Setup-Terraform-Architecture-Overview](assets/architecture-overview/aws‑account-setup-terraform-architecture-overview.drawio.svg)
+![AWS‑Account-Setup-Terraform-Architecture-Overview](assets/architecture-overview/aws‑account-setup-terraform-architecture-overview.png)
 
 This project follows a modern AWS multi‑account pattern, using AWS Organisations, Identity Center, created manually in the AWS console as per AWS best practice. As well as initial bootstrap terraform to create the backbone for future projects.
 
