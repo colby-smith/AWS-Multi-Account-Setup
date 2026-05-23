@@ -1,7 +1,8 @@
 # AWS Multi Account Setup
 
-## 📘 Overview
 A clean, enterprise‑grade AWS multi‑account setup designed for my own personal projects, experimentation, and portfolio development. This repository demonstrates strong governance, environment isolation, and AWS best practices across Development, Staging, Production, and Management accounts.
+
+## 📘 Overview
 
 This project follows a modern AWS multi‑account pattern, using AWS Organisations, Identity Center, created manually in the AWS console as per AWS best practice. As well as initial bootstrap terraform to create the backbone for future projects.
 
