@@ -1,12 +1,11 @@
-# AWS Multi‑Account Architecture for Personal Projects
+# AWS Multi Account Setup
 
+## 📘 Overview
 A clean, enterprise‑grade AWS multi‑account setup designed for my own personal projects, experimentation, and portfolio development. This repository demonstrates strong governance, environment isolation, and AWS best practices across Development, Staging, Production, and Management accounts.
 
-## 📘 Bootstrap Architecture Overview
-
-![AWS‑Account-Setup-Terraform-Architecture-Overview](assets/architecture-overview/aws‑account-setup-terraform-architecture-overview.png)
-
 This project follows a modern AWS multi‑account pattern, using AWS Organisations, Identity Center, created manually in the AWS console as per AWS best practice. As well as initial bootstrap terraform to create the backbone for future projects.
+
+![AWS Static Website Hosting architecture overview](./assets/AWS-Multi-Account-Setup.png)
 
 ## 🎯 Purpose of This Repository
 
@@ -31,8 +30,6 @@ Each AWS account has a clear, single responsibility. This separation ensures saf
 | Production   | Live Workloads & Public Projects           |
 
 ## 🗂️ Organisational Unit Structure
-
-![OU-Structure](assets/ou-structure/aws-account-setup-ou-structure.svg)
 
 The AWS Organisation is intentionally simple:
 
