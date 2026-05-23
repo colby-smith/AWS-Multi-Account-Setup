@@ -5,7 +5,7 @@ A clean, enterprise‑grade AWS multi‑account setup designed for my own person
 
 This project follows a modern AWS multi‑account pattern, using AWS Organisations, Identity Center, created manually in the AWS console as per AWS best practice. As well as initial bootstrap terraform to create the backbone for future projects.
 
-![AWS Static Website Hosting architecture overview](./assets/AWS-Multi-Account-Setup.png)
+![AWS Multi Account Setup Overview](./assets/AWS-Multi-Account-Setup.png)
 
 ## 🎯 Purpose of This Repository
 
